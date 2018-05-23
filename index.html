@@ -4,9 +4,10 @@
 	<title>Nathan's Website</title>
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/cdnjs.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-	
+
+
 	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<meta name="author" content="Nathan Hodges">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,12 +27,14 @@
 					<span class="icon">
 						<i class="fa fa-github"></i>
 					</span>
-				</a>				
+				</a>
 			</div>
 
 			<div class="nav-right nav-menu">
 				<a class="nav-item" href="#about">About</a>
 				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#notes">Lecture Notes</a>
+				<a class="nav-item" href="resume.pdf">Resume</a>
 			</div>
 
 			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
@@ -42,7 +45,7 @@
 				<span></span>
 			</span>
 		</nav>
-				
+  <hr>
 		<!-- About Me -->
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
@@ -51,18 +54,21 @@
 			</div>
 			<div class="container"></br>
 				<p class="intro">
-					Current senior graduating in the fall of 2018 from the University of North Carolina at Asheville. Most of my experience is in education. I worked as a peer facilitator or peer tutor for three years with the physics department. I have experience in leadership roles from my time as president of my universities Society of Physics Students and training new employees at Eaton. 	
+					Current senior graduating in December of 2018 from the University of North Carolina at Asheville.
+					Most of my experience is in education.
+					I worked as a peer facilitator and peer tutor for three years with the physics department.
+					I have experience in leadership roles from my time as president of my universities Society of Physics Students and training new employees at Eaton.
 				</p>
 			</div>
 		</section>
-		
+<hr>
 		<!-- Projects -->
-		<section  id="projects" class="section section-2">
+		<section  id="projects" class="section section-1">
 			<div class="container">
 				<div class="has-text-centered">
 					<h3 class="title is-3">Projects</h3>
 				</div>
-				
+
 				<div class="columns is-multiline is-desktop">
 					<!-- Project 1 -->
 					<div class="column">
@@ -73,7 +79,7 @@
 										<img src="assets/img/LastPass.png" alt="Image">
 									</figure>
 								</div>
-								<div>			
+								<div>
 									<a href="RandomPasswordGenerator.html">Random Password Generator</a>
 									<p>
 										This file shows how to read and write csv files using python.
@@ -91,20 +97,70 @@
 										<img src="assets/img/Ears.png" alt="Image">
 									</figure>
 								</div>
-								<div>			
+								<div>
 									<a href="SpeakHalf.html">Speak Half</a>
 									<p>
-										This file explores the convergence of a recursively degined sequence similar to the fibonacci sequence.
+										This notebook explores the convergence of a recursively defined sequence similar to the fibonacci sequence.
+									</p>
+								</div>
+							</article>
+						</div>
+						<!-- Project 1 -->
+						<div class="column">
+							<div class="box project-text">
+								<article>
+									<div>
+										<figure class="image project-figure">
+											<img src="assets/img/SensorLabImage.png" alt="Image">
+										</figure>
+									</div>
+									<div>
+										<a href="SensorLabGPSData.html">Sensor Lab Data</a>
+										<p>
+											Using an android app to gather gps data from a phone. Sensor's also include light levels, magnetic field strength and sound which could be used for various other projects.
+										</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<hr>
+		<!-- Lecture Notes -->
+		<section  id="notes" class="section section-1">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Lecture Notes</h3>
+				</div>
+
+				<div class="columns is-multiline is-desktop">
+					<!-- Note 1 -->
+					<div class="column">
+						<div class="box notes-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/cat.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<a href="Quantum.pdf">Quantum Notes</a>
+									<p>
+										Final exam review for quantum mechanics II.
 									</p>
 								</div>
 							</article>
 						</div>
 					</div>
+					</div>
 				</div>
 			</div>
-		</section>	
-		
+		</section>
+
 		<!-- Scripts  -->
-		<script src="controller.js"></script>		
-	</body>	
+		<script src="controller.js"></script>
+	</body>
 </html>
